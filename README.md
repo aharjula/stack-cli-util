@@ -9,6 +9,7 @@ Meant for people working with Moodle question.xml files for example inside their
 ## Current state of development
 
 Changelog:
+ - 0.1.1 some fixes related to changes in the parser
  - 0.1.0 the first release:
   - Can eliminate unused attachments.
   - Should be able to convert multilang and mlang2 to `[[lang]]`, not necessary perfectly for MCQ labels or content inside the logic.

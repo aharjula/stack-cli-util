@@ -138,9 +138,9 @@ impl Action for LangSyntaxConverter {
 										if let MPNodeType::List(inner_items) = &optionlist.value {
 											if inner_items.len() > 2 {
 												// Extract possible strings.
-												let strings = inner_items[2].extract_stack_string_usage(StackStringUsage::Unknown);
+												let strings = inner_items[2].extract_stack_string_usage(StackStringUsage::ListElement(2));
 												if strings.len() > 1 {
-													notes.push("   + Complicated label, could not inpect fragments.".to_string());
+													notes.push("   + Complicated label, could not inspect fragments.".to_string());
 												} else if strings.len() == 1 {
 													// So a single string, this we can work with.
 													let stringvalue = if let MPNodeType::String(v) = &strings[0].1.value {v.clone()} else {String::new()};

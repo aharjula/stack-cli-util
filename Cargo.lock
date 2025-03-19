@@ -396,9 +396,9 @@ dependencies = [
 
 [[package]]
 name = "stack_maxima_parser"
-version = "0.1.1"
+version = "0.1.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2f67ad76b4111911b7f4ef388179eaf8ee138184958a95a99fe5e5e3d555cef9"
+checksum = "50a744e20dac9a92ecf2b7f089cc2cd0b01cf318a9922f5f22512da48dd010f8"
 dependencies = [
  "phf",
  "unicode_categories",

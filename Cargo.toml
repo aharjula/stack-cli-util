@@ -1,6 +1,6 @@
 [package]
 name = "stack-cli-util"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "A CLI tool for executing action on question.xml files and in particular STACK questions in them."
 license = "MIT"
@@ -13,5 +13,5 @@ keywords = ["moodle", "question", "xml", "STACK"]
 [dependencies]
 position_preserving_moodle_question_xml_edit = "0.1.2"
 regex = "1.11.1"
-stack_maxima_parser = "0.1.1"
+stack_maxima_parser = "0.1.2"
 urlencoding = "2.1.3"
